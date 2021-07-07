@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: sans-serif;
+    //border: 2px solid grey; 
+    background-color: black;
+    color:white;
+}
+
+.navBar{
+    margin-top: 20px;
+    height: 80px;
+    position: relative;
+    box-shadow: -3px 10px 5px -2px rgba(164,164,164,0.75);
+    -webkit-box-shadow: -3px 10px 5px -2px rgba(164,164,164,0.75);
+    -moz-box-shadow: -3px 10px 5px -2px rgba(164,164,164,0.75);
+}
+.image{
+    height: 80px;
+    display: inline-block;
+    margin-left: 2vw;
+}
+img{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    margin: 0px 4vw;
+    font-size: 25px;
+
+}
+a:hover{
+    color:orange;
+}
+.links{
+    display: inline-block;
+    
+    position: absolute;
+    
+    top: 30px;
+    right: 5vw;
+}
+/* body of landing page */
+span{
+    color: rgb(143, 113, 238);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.image2{
+    width: 700px;
+    height: fit-content;
+    display: inline-block;
+    
+}
+.bodyImage{
+    width: 100%;
+    height: 100vh;
+    margin-left: 20px;
+}
+
+.content{
+    width:100%;
+    display: inline-block;
+    margin-left: 7vw;
+    margin-right: 15vw;
+    font-size: 31px;
+    
+
+} 
+p{margin-top: 19px;}
+/* fotter styling */
+footer{
+    width: 100%;
+    height:200px;
+position: absolute;
+}
+.footerLogo{
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding: 0px;
+    margin-bottom:20px ;
+    align-self: center;
+}
+#footerContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.footerSec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:40px 20px 20px 40px;
+}
+#footerHeading{
+    text-align: center;
+    margin:40px;
+    font-size: 3em;
+}
+
